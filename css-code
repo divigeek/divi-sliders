@@ -1,0 +1,25 @@
+<style>
+  @media only screen and (min-width: 767px) and (max-width: 980px) {
+    #dg-products-section .woocommerce {
+      width: 475px;
+    }
+    
+    #dg-products-section.et_pb_shop ul.products li.product {
+      width: 222px !important;
+    }
+    
+    #dg-products-section.et_pb_shop ul.products.swiper-wrapper li.product {
+      margin-right: 30px !important;
+    }
+  }
+  
+  @media only screen and (max-width: 766px) {
+    #dg-products-section .woocommerce {
+      width: 145px;
+    } 
+    #dg-products-section.et_pb_shop ul.products.swiper-wrapper li.product {
+      width: 100% !important;
+      margin-right: 15px !important;
+    }
+  }
+</style>
